@@ -1,105 +1,17 @@
-TWITTER BOOTSTRAP
-=================
+# [Bootstrap 3 RTL](https://github.com/MohammadYounes/RTL-bootstrap)
 
-Bootstrap is Twitter's toolkit for kickstarting CSS for websites, apps, and more. It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more.
-
-To get started -- checkout http://twitter.github.com/bootstrap!
+[![Join the chat at https://gitter.im/MohammadYounes/RTL-bootstrap](https://badges.gitter.im/MohammadYounes/RTL-bootstrap.svg)](https://gitter.im/MohammadYounes/RTL-bootstrap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-Usage
------
+RTL version of [twitter’s bootstrap]( https://github.com/twbs/bootstrap)
 
-You can use Twitter Bootstrap in one of two ways: just drop the compiled CSS into any new project and start cranking, or run LESS on your site and compile on the fly like a boss.
+For a live preview, checkout Bootstrap 3 RTL [demo pages] (http://mohammadyounes.github.io/RTL-bootstrap/)
 
-Here's what the LESS version looks like:
+v2.3.2 has been made available for the time being at
 
-``` html
-<link rel="stylesheet/less" type="text/css" href="lib/bootstrap.less">
-<script src="less.js" type="text/javascript"></script>
-```
-
-Or if you prefer, the standard css way:
-
-``` html
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
-```
-
-For more info, refer to the docs!
+ * Bootstrap 2 RTL [source] (https://github.com/MohammadYounes/RTL-bootstrap/releases/tag/v2.3.2) 
+ * Bootstrap 2 RTL [demo pages] (http://mohammadyounes.github.io/RTL-bootstrap/2.3.2)
 
 
-Versioning
-----------
-
-For transparency and insight into our release cycle, and for striving to maintain backwards compatibility, Bootstrap will be maintained under the Semantic Versioning guidelines as much as possible.
-
-Releases will be numbered with the follow format:
-
-`<major>.<minor>.<patch>`
-
-And constructed with the following guidelines:
-
-* Breaking backwards compatibility bumps the major
-* New additions without breaking backwards compatibility bumps the minor
-* Bug fixes and misc changes bump the patch
-
-For more information on SemVer, please visit http://semver.org/.
-
-
-Bug tracker
------------
-
-Have a bug? Please create an issue here on GitHub!
-
-https://github.com/twitter/bootstrap/issues
-
-
-Twitter account
----------------
-
-Keep up to date on announcements and more by following Bootstrap on Twitter, <a href="http://twitter.com/TwBootstrap">@TwBootstrap</a>.
-
-
-Mailing list
-------------
-
-Have a question? Ask on our mailing list!
-
-twitter-bootstrap@googlegroups.com
-
-http://groups.google.com/group/twitter-bootstrap
-
-
-Developers
-----------
-
-We have included a makefile with convenience methods for working with the bootstrap library.
-
-+ **build** - `make build`
-This will run the less compiler on the bootstrap lib and generate a bootstrap.css and bootstrap.min.css file.
-The lessc compiler is required for this command to run.
-
-+ **watch** - `make watch`
-This is a convenience method for watching your less files and automatically building them whenever you save.
-Watchr is required for this command to run.
-
-
-Authors
--------
-
-**Mark Otto**
-
-+ http://twitter.com/mdo
-+ http://github.com/markdotto
-
-**Jacob Thornton**
-
-+ http://twitter.com/fat
-+ http://github.com/fat
-
-
-License
----------------------
-
-Copyright 2011 Twitter, Inc.
-
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
+# Announcement
+Up to date RTL version of Bootstrap 3 is available at [this branch](https://github.com/MohammadYounes/RTL-bootstrap/tree/3), its automatically converted using [RTLCSS](https://github.com/MohammadYounes/rtlcss).
